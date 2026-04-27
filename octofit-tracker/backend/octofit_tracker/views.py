@@ -36,3 +36,4 @@ def api_root(request, format=None):
         'leaderboard': request.build_absolute_uri('leaderboard/'),
         'workouts': request.build_absolute_uri('workouts/'),
     })
+
