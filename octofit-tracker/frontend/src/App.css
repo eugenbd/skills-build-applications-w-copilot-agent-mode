@@ -1,0 +1,38 @@
+.App {
+  min-height: 100vh;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+.App .navbar-brand {
+  font-weight: 700;
+}
+
+.App .nav-link.active {
+  font-weight: 600;
+}
+
+.App .card {
+  border: none;
+}
+
+.App .data-card {
+  margin-bottom: 1.5rem;
+}
+
+.App .table-responsive {
+  overflow-x: auto;
+}
+
+.App .modal-body pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.App .filter-form .form-control {
+  min-width: 180px;
+}
